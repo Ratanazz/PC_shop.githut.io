@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+
+nav{
+    
+    background-color: white;
+    width: 80%;
+    padding-top: 1rem;
+    margin: auto;
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+    border-radius: 3rem;
+    padding: 0.5rem 3rem;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+}
+.logo{
+    text-align: center;
+    align-content: space-between;
+    margin-top: 0.4%;
+    
+
+}
+.logo h1{
+    font-size: 1.5rem;
+    margin-top: 1%;
+}
+.nav_link li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 3rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.nav_link a{
+    text-decoration: none;
+}
+#background{
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+}
+.shopnow{
+    position: absolute;
+  top: 70%; /* adjust the top position */
+  left: 10%; /* adjust the left position */
+  border: none;
+  background-color: #D6523C;
+  padding: 0.8rem 3rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #FFFFF7;
+}
+.shopnow button:hover{
+    background-color:  #FFFFF7;
+    color: #D6523C;
+
+}
+
+
