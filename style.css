@@ -20,29 +20,78 @@ nav{
     align-items: center;
     position: absolute;
     left: 10%;
+    font-family: 'Roboto', sans-serif;
 }
-.logo{
+.logo {
     text-align: center;
     align-content: space-between;
     margin-top: 0.4%;
     
+}
+.logo a{
+    text-decoration: none;
+    color: #25373D;
+}
+.logo a:hover{
+    color: #3D8EB9;
 
 }
 .logo h1{
     font-size: 1.5rem;
     margin-top: 1%;
+    
+    
 }
 .nav_link li {
     list-style: none;
     display: inline-block;
     padding-right: 3rem;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    
     
 }
 .nav_link a{
     text-decoration: none;
+    color: #25373D;
 }
+.nav_link{
+    display: flex;
+    align-items: center;
+}
+/* Login Button  */
+.Login{           
+    margin-right: 1rem;
+    
+    font-size: 1rem;
+    color: #FFFFF7;
+    border: none;
+    font-weight: bold;
+    
+    background-color: #3D8EB9;
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.Login:hover{
+    background-color:  #FFFFF7;
+    color: #25373D;
+
+}
+.cart{
+    align-items: center;
+    display: flex;
+}
+.cart h2{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 0.2rem;
+}
+.nav_link a:hover{
+    color: #3D8EB9;
+
+}
+
 #background{
     position: relative;
     z-index: -1;
@@ -62,10 +111,12 @@ nav{
   font-weight: bold;
   font-size: 1.5rem;
   color: #FFFFF7;
+  
 }
-.shopnow button:hover{
+.shopnow:hover{
     background-color:  #FFFFF7;
     color: #D6523C;
+    transition: 0.2s;
 
 }
 
