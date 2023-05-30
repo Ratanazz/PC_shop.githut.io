@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 }
 
@@ -119,5 +120,45 @@ nav{
     transition: 0.2s;
 
 }
+.section2{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.short-information{
+    width: 90%;
+    margin: auto;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.short-information h1{
+    font-size: 1rem;
+    color: #3E4651;
+    
+
+}
+.short-information h2{
+    font-size: 1rem;
+    color: #87766C;
+    
+    
+}
+.Text-short-information{
+    display: flex;
+    align-items: center;
+}
+.line {
+    width: 1px;
+    height: 30px;
+    background-color: #333;
+    
+  }
+#inf-icon{
+    margin-right: 0.3rem;
+    color: #87766C;
+}
+
 
 
