@@ -121,7 +121,7 @@ nav{
 
 }
 .section2{
-    height: 100vh;
+    height: 200vh;
     margin: 0;
     padding: 0;
 }
@@ -212,5 +212,7 @@ nav{
     margin-top: 5px;
     font-size: 18px;
 }
+
+
 
 
